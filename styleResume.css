@@ -1,0 +1,106 @@
+
+body{
+    background:#e5ecec;
+    }
+    nav{
+    background-color:rgb(15, 82, 228);
+    
+    margin:10px;
+    }
+    nav ul{
+    
+    display:flex;
+    
+    
+    list-style:none;
+    }
+    nav ul li{
+    padding:10px 10px;
+    }
+    nav ul li a{
+    text-decoration:none;
+    font-size:18px;
+    color:white;
+    font-family:Arial;
+    }
+    nav ul li:hover{
+    background-color:black;
+    transition:0.9s;
+    }
+    @media only screen and (max-width:767px){
+    nav ul{
+    height:230px;
+    flex-direction:column;
+    text-align:center;
+    }
+    }
+    header{
+        height: 100px;
+        background-color: rgba(15, 14, 14, 0.479);
+        margin:10px;
+    }
+    header h1{
+        text-align: center;
+        font-weight: Arial bold;
+        color:white;
+        padding:20px 10px;
+    }
+    .Resume{
+        display:flex;
+        background-color: brown;
+        margin:10px;
+    }
+    .Resume h1{
+        color:white;
+    }
+    footer{
+        display:flex;
+        height: 100px;
+        background-color: black;
+        margin:10px;
+        justify-content: center;
+        justify-content: space-around;
+        
+    }
+    footer p{
+        font-family: Arial;
+        color:white;
+        text-align: justify;
+        padding:10px;
+        }
+
+    .container{
+        display:grid;
+        grid-template-columns: 700px 10px 260px;
+        grid-template-rows: 250px 200px 400px;
+        margin:10px;
+    }
+    .course{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: rgb(167, 248, 244);
+    }
+    .table{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: rgb(167, 248, 244);
+    }
+    .training{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: lightblue;
+    }
+    .publication{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        justify-self: stretch;
+        background-color: rgb(167, 248, 244);
+    }
