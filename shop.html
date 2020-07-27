@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop</title>
+        <link rel="stylesheet" href="shop.css">
+        <script src="https://kit.fontawesome.com/bf45bc72d1.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><em>fashion</em></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Account
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="#">Setting</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Logout</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="product search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <!--caroussel-->
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.chloe.com/cloud/chloewp/uploads/2020/02/CHLOE_FW20_ECOM_1921X2560_35.jpg?imdensity=1&imwidth=560&impolicy=chloe" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <!--h5>First slide label</h5-->
+                  <!--p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p-->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.chloe.com/cloud/chloewp/uploads/2020/02/CHLOE_FW20_ECOM_1921X2560_14.jpg?imdensity=1&imwidth=560&impolicy=chloe" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <!--h5>Second slide label</h5-->
+                  <!--p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p-->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.chloe.com/cloud/chloewp/uploads/2020/02/CHLOE_FW20_ECOM_1921X2560_18.jpg?imdensity=1&imwidth=560&impolicy=chloe" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <!--h5>Third slide label</h5-->
+                  <!--p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p-->
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!--coeur de la page-->
+          <div class="sum">
+            <div class="icone">
+              <i class="fas fa-cart-arrow-down" style="font-size:24px"></i>
+            </div>
+            <div class="total">
+              <p>shopping bag total:</p>
+            </div>
+            <div class="tot">
+                  <p>0</p>
+            </div>
+            <div class="devise">
+                  <p>DT</p>
+            </div>
+            
+          </div> 
+          <div class="product">
+            <div class="box1">
+              <button class="remove" type="button"><i class="fas fa-trash-alt" style="font-size:24px"></i></button>
+            </div>
+            <div class="box2">
+                <i class="fas fa-heart" style="font-size:24px; color:gray" ></i>
+              
+            </div>
+            <div class="box3"><img src="data:image/jpeg;base64,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" width="150" height="150">
+            </div>
+            <div class="box4">
+              <p>Pantalon</p>
+            </div>
+            <div class="box5">
+              <div class="minus"><button class="min" ><i class="fas fa-minus"></i></button></div>
+              <div class="quantity"><p>0</p></div>
+              <div class="plus"><button class="plu" ><i class="fas fa-plus"></i></button></i></div>
+            </div>
+            <div class="box6">
+              <p>150 DT</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="box1">
+              <button class="remove" type="button"><i class="fas fa-trash-alt" style="font-size:24px"></i></button>
+            </div>
+            <div class="box2">
+              <i class="fas fa-heart"style="font-size:24px; color:gray" ></i>
+            </div>
+            <div class="box3"><img src="https://www.label-blouse.net/3612-normal_default/chemisier-manches-longues-femme-couleur-aztec-blue.jpg" width="150" height="150">
+            </div>
+            <div class="box4">
+              <p>Chemise</p>
+            </div>
+            <div class="box5">
+              <div class="minus"><button class="min"><i class="fas fa-minus"></i></button></div>
+              <div class="quantity"><p>0</p></div>
+              <div class="plus"><button class="plu"><i class="fas fa-plus"></i></button></i></div>
+            </div>
+            <div class="box6">
+              <p>70 DT</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="box1">
+              <button class="remove" type="button"><i class="fas fa-trash-alt" style="font-size:24px"></i></button>
+            </div>
+            <div class="box2">
+              <i class="fas fa-heart"style="font-size:24px; color:gray" ></i>
+              </i></div>
+            <div class="box3">
+              <img src="https://cdn.shopify.com/s/files/1/0080/7324/8864/products/Summer-2019-Casual-Sleeveless-Maxi-Dress-Vintage-Loose-Women-Clothes-Beach-Sexy-Dress-Fashion-Elegant-High_be423209-17c1-46c7-95da-3971bcab4b1b_300x300.jpg?v=1571715302" width="150" height="150">
+            </div>
+            <div class="box4">
+              <p>Robe</p>
+            </div>
+            <div class="box5">
+              <div class="minus"><button class="min"><i class="fas fa-minus"></i></button></div>
+              <div class="quantity"><p>0</p></div>
+              <div class="plus"><button class="plu" ><i class="fas fa-plus"></i></button></i></div>
+            </div>
+            <div class="box6">
+              <p>250 DT</p>
+            </div>
+          </div>
+          <div class="product">
+            <div class="box1">
+              <button class="remove" type="button"><i class="fas fa-trash-alt" style="font-size:24px"></i></button>
+            </div>
+            <div class="box2">
+              <i class="fas fa-heart"style="font-size:24px; color:gray" ></i>          </div>
+            <div class="box3">
+              <img src="https://contents.mediadecathlon.com/p1222753/k$a406c84e7217f1fcbebf20b0962af241/sq/Veste+TRAVEL700+3en1+femme+noir.jpg?f=700x700" width="150" height="150">
+            </div>
+            <div class="box4">
+              <p>Veste</p>
+            </div>
+            <div class="box5">
+              <div class="minus"><button class="min" ><i class="fas fa-minus"></i></button></div>
+              <div class="quantity"><p>0</p></div>
+              <div class="plus"><button class="plu"><i class="fas fa-plus"></i></button></i></div>
+            </div>
+            <div class="box6">
+              <p>200 DT</p>
+            </div>
+          </div>
+          <!--startBootstrap-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="shop.js"></script>
+    </body>
+    
+</html>    

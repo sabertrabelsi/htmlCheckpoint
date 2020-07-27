@@ -1,0 +1,71 @@
+.sum{
+    display:flex;
+    flex-direction: row;
+    margin:10px;
+    flex-basis: initial;
+    background-color: red;
+}
+.tot{
+    padding:10px;
+}
+.devise{
+    padding:10px;
+}
+.total{
+    display:flex;
+    flex-direction: row;
+    
+}
+.icone{
+    margin:10px;
+}
+.total{
+    margin:10px;
+    
+}
+.product{
+    display:flex;
+    flex-direction: row;
+    margin:10px;
+    background-color: antiquewhite;
+    height: 150;
+}
+.box1{
+    padding:50px;
+    text-align:center;
+}
+.box2{
+    padding:50px;
+}
+.box3{
+    background-color: lightgray;
+
+}
+.box4 p{
+    
+    color: red;
+    
+    padding:50px;
+}
+.box5{
+    padding:40px;
+    display:flex;
+    flex-direction: row;
+}
+.box6{
+    padding:40px;
+}
+.minus{
+    padding:10px;
+}
+.plus{
+    padding:10px;
+}
+.quantity{
+    padding:10px;
+}
+.remove:hover{
+    border-bottom:none;
+    background-color: red;
+    transition: 0.9s;
+}
